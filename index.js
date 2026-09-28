@@ -22,6 +22,8 @@ function findMaximum(num1,num2) {
 }
 console.log(findMaximum(20,35))
 
+
+
 function isPalindrome(word) {
     let reversed = word.split("").reverse().join("");
     if(word === reversed) {
